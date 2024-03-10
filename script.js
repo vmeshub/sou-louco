@@ -19,43 +19,36 @@ const carousel = document.querySelector('.carousel');
 
 let posts = {
   "0000": true,
-  "0001": true,
-  "0002": true,
-  "0003": true,
-  "0004": true,
-  "0005": true
+  "0001": true
 };
 
 let tags = {
   "comedia": [
-    "0000"
+    "0001"
   ],
   "video": [
-    "0004"
+    "0000"
   ],
   "humor": [
-    "0003",
-    "0005",
     "0001"
   ],
   "historias": [
-    "0003",
-    "0002"
+    "0001"
   ],
   "musica": [
-    "0004"
+    "0000"
   ],
   "bizarro": [
-    "0000"
+    "0001"
     ],
   "memes": [
     "0000"
   ],
   "musicas": [
-    "0004"
+    "0000"
   ],
   "wtf": [
-    "0000"
+    "0001"
   ]
 };
 
