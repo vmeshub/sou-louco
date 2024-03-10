@@ -62,14 +62,20 @@ body{
  text-align: center;
 }
 
-.text-envie-email{
- font-family: Fredoka;
- font-size: 40px;
- padding: 2px;
+.container-text-email{
  text-align: center;
+}
+
+.text-email-contato{
+ font-family: Fredoka;
+ transition: 0.5s;
+ font-size: 40px;
  color: #2471A3;
- width: auto;
- height: auto;
+ padding: 2px;
+}
+
+.text-email-contato:hover{
+ color: #61625C;
 }
 
 .container-text-regras{
