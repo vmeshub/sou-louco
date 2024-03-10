@@ -1,0 +1,440 @@
+body{
+ margin: 0px;
+ padding: 0px;
+ font-family: sans-serif;
+ background-image: url(../img/fundo/BCG_01.png);
+}
+
+.fredoka-<uniquifier> {
+ font-family: "Fredoka", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: <weight>;
+ font-style: normal;
+ font-variation-settings:"wdth" 100;
+}
+
+@font-face {
+ font-family: viga;
+ src: url(../font/Viga-Regular.ttf);
+}
+
+.fundo{
+ height: 50%;
+ padding: 25px;
+ background-image: url(../img/fundo/BD_3.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ border-bottom: 4px solid #415D97;
+}   
+
+.logo{
+ padding: 8px;	
+ margin: auto;
+ display: flex;
+}
+
+.container-posts-links{
+ display: flex;
+ justify-content: center;
+ box-sizing: border-box;
+ padding: 15px;
+}
+
+.container-coluna-posts{
+ display: flex;
+ flex-direction: column;
+}
+
+.container-erro{
+ box-sizing: border-box;
+ padding-right: 5px;
+ text-align: center;
+ padding-left: 5px;
+ width: 500px;
+ color: #888;
+}
+
+.text-erro{
+ font-family: Fredoka;
+ font-size: 28px;
+}
+
+.posts{
+ padding-top: 10px;
+}
+
+.container-text-posts{
+ background-color: #415D97;
+ box-sizing: border-box;
+ border-radius: 5px 5px 0px 0px;
+ padding-left: 5px;
+ padding-right: 5px;
+ width: 500px;
+ height: auto;
+ display: flex;
+ color: #F4F6F7;
+}
+
+.titulo-posts{
+ font-family: Fredoka;
+ font-size: 30px;
+ word-break: break-word;
+ margin: 0px;
+}
+
+.img-posts{
+ margin: auto;
+ display: flex;
+ padding: 3px;
+ box-sizing: border-box;
+}
+
+iframe{
+ box-sizing: border-box;
+ margin: auto;
+ display: flex;
+ padding: 5px;
+}
+
+.container-posts{
+ box-sizing: border-box;
+ padding: 5px;
+ background-color: white;
+ width: 500px;
+ height: auto;
+}
+
+.container-teg{
+ width: 500px;
+ height: auto;
+ box-sizing: border-box;
+ background-color: white;
+ border-bottom: #CACFD2 1px solid;
+ border-top: #CACFD2 1px solid;
+}
+
+.button{
+ margin: 3px;
+ color: #888;
+ border-radius: 2px;
+ background-color: #F1F1F1;
+ border: none;
+ cursor: pointer;
+ font-size: 15px;
+ font-family: Fredoka;
+ transition-duration: 0.4s;
+}
+
+.button:hover{
+ color: white;
+ background-color: #5499C7;
+}
+
+.container-data{
+ justify-content: space-between;
+ background-color: white;
+ box-sizing: border-box;
+ font-family: Fredoka;
+ display: flex;
+ flex-direction: row;
+ border-top: #CACFD2 1px solid;
+ border-radius: 0px 0px 5px 5px;
+ align-items: center;
+ padding: 5px;
+ font-size: 15px;
+ color: #717D7E;
+ width: 500px;
+ height: auto;
+}
+
+.container-carta{
+ box-sizing: border-box;
+}
+
+.container-coluna{
+ padding-top: 10px;
+ margin-left: 25px;
+ flex-direction: column;
+}
+
+.container-email-contato{
+ font-family: viga;
+ background-color: white;
+ box-sizing: border-box;
+ margin-bottom: 9px;
+ border-radius: 5px;
+ padding: 9px;
+ width: 340px;
+ height: auto;
+ text-align: center;
+}
+
+.text-titulo-email{
+ text-align: center;
+ background-image: linear-gradient(#283747, #1B2631);
+ border-radius: 5px;
+ border: 1px solid #1B2631;
+ font-family: Fredoka;
+ font-size: 30px;
+ color: white;
+ margin: auto;
+}
+
+.icon-redes{
+ padding-top: 5px;
+ padding-left: 4px;
+ padding-right:4px;
+}
+
+.text-descrição-email{
+ color: #61625C;
+ font-size: 14px;
+ font-family: sans-serif;
+ padding: 3px;
+}
+
+.container-melhores{
+ background-color: white;
+ border-radius: 5px;
+ box-sizing: content-box;
+ font-family: viga;
+ padding: 9px;
+ color: #38495E;
+ width: 322px;
+ height: auto;
+}
+
+.text-melhores{
+ text-align: center;
+ background-image: linear-gradient(#7D3C98, #6C3483);
+ border-radius: 5px;
+ border: 1px solid #8E44AD;
+ font-family: Fredoka;
+ font-size: 30px;
+ color: white;
+ margin: auto;
+}
+
+.container-post-lugar{
+ display: flex;
+ font-size: 8px;
+ box-sizing: border-box;
+ padding: 3px;
+ padding-top: 6px;
+ flex-direction: row;
+ width: 290px;
+}
+
+.img-post-lugar{
+ border-radius: 3px;
+ border: 2px solid #979A9A;
+}
+
+.container-text-lugar{
+ box-sizing: border-box;
+ padding-left: 5px;
+}
+
+.titulo-lugar{
+ color: #40403F;
+}
+
+.descrição-lugar{
+ font-size: 12px;
+ font-family: Fredoka;
+ color: #61625C;
+}
+
+.palito-divisão{
+ padding-left: 5px;
+ padding-right: 5px;
+ color: #656566;
+}
+
+.container-teg-menu{
+ justify-content: right;
+ flex-direction: row;
+ padding-bottom: 5px;
+ display: flex;
+ font-size: 15px;
+ font-family: Fredoka;
+ color: #656566;
+ transition: 0.5s;
+}
+
+.selecionado-teg{
+ text-decoration: none;
+ transition: 0.5s;
+ font-size: 15px;
+ font-family: Fredoka;
+ color: #656566;
+}
+
+.selecionado-teg:hover{
+ color: #B03A2E;
+ transition: 0.5s;
+}
+
+img{
+ margin: 0px;
+}
+
+h1,h3,h4{
+ margin: 0px;
+}
+
+p{
+ margin: 0px;
+ word-break: break-word;
+}
+
+footer{
+ background-color: #1D181F;
+ position: relative;
+ box-sizing: border-box;
+ padding: 15px;
+ color: #656566;
+ width: 100%;
+ height: auto;
+ border-bottom: #222 12px solid;
+ border-top: #222 12px solid;
+}
+
+.text-branco{
+ color: #C1C1C2;
+}
+
+.container-rodape{
+ text-align: center;
+ margin: auto;
+ font-size: 15px;
+ width: 700px;
+}
+
+.container-menu-navegar{
+ justify-content: center;
+ margin: auto;
+ display: flex;
+ padding-top: 10px;
+}
+
+.selecionado:nth-child(1n) {
+ color: #2471A3;
+}
+
+.menu ul{
+ position: relative;
+ border-radius: 5px 5px 5px 5px;
+ text-align: center;
+ background-color: #2980B9;
+ margin: 0px;
+ padding: 0px;
+ width: 637px;
+}
+
+ .menu ul li{
+ width: 100%;
+ display: block;
+}
+
+.menu ul li a{
+ text-align: center;
+ align-items: center;
+ display: inline-block;
+ font-size: 24px;
+ font-family: Fredoka;
+ padding: 5px;
+ color: white;
+ text-decoration: none;
+ transition: 0.5s;
+}
+
+.palito-divisão-menu{
+ font-size: 25px;
+ color: white;
+}
+
+.menu ul li a:hover{
+ transition: 0.5s;
+ color: #2471A3;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 70px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+  border: 1px solid #2980B9;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=number] {
+  border-radius: 5px 5px 5px 5px;
+  padding: 6px;
+  height: 26px;
+  margin-left: 5px;
+  box-sizing: content-box;
+  border: none;
+  font-size: 17px;
+}
+
+
+.text-titulo-videos{
+ background-image: linear-gradient(#85C1E9, #3498DB);
+ border-radius: 5px;
+ border: 1px solid #2E86C1;
+ font-size: 30px;
+ margin: auto;
+ height: auto;
+}
+
+.container-carousel{
+ background-color: white;
+ box-sizing: border-box;
+ padding: 9px;
+ margin-bottom: 9px;
+ width:  340px;
+ height: auto;
+ text-align: center;
+ font-family: Fredoka;
+ color: white;
+ border-radius: 5px;
+}
+
+.carousel{
+ padding-top: 5px;
+ width: 320px;
+ overflow: hidden;
+ margin: 0 auto;
+ padding-bottom: 5px;
+}
+.carousel-container{
+ display: flex;
+ transition: transform 0.5s ease;
+}
+.carousel-item{
+ flex: 0 0 auto;
+ width: 320px;
+}
